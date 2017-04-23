@@ -7,3 +7,22 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+	background-color: $brand-primary;
+}
+
+form {
+	margin: 3rem auto;
+}
+.navbar-primary {
+	@endtend .navbar-default;
+	background-color: darken($brand-primary, 10);
+	color: #fff;
+}
+
+.navbar-brand {
+	color: #fff;
+	float: none;
+	display: inline-block;
+}
