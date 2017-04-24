@@ -32,8 +32,11 @@
                         <li>Episode links</li>
                         <li>Audio player for episodes</li>
                         <li>Accounts for show owners (with verification)</li>
-                        <li>Accounts for show owners (with verification)</li>
+                        <li>A small podcast directory of claimed shows.</li>
+                        <li>Use Javascript to detect whether an App's URL scheme works, remove it from list if not.</li>
                     </ul>
+
+                    <p>If you use this tool, find bugs, or want to suggest features, <a href="http://twitter.com/dcoulbourne">hit me up on twitter.</a></p>
                 </div>
             </div>
         </div>

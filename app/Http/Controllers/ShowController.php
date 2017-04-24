@@ -34,7 +34,7 @@ class ShowController extends Controller
                     ],
                     (object) [
                         'title' => 'Overcast',
-                        'url'   => 'http://overcast.fm/itunes' . $itunes->collectionId,
+                        'url'   => 'overcast://x-callback-url/add?url=' . $request->input('rss'),
                     ],
                     (object) [
                         'title' => 'Pocket Casts',
